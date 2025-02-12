@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+    
+}
+
+body{
+   
+    background-image: url("pexels-mikel-1239162.jpg");
+    background-size: cover;
+}
+
+.lo{
+    width: 400px;
+    height: 250px;
+    background-image: url("FITWAVE\ 2.png");
+    background-size: cover;
+}
+
+.signin{
+    padding: 20px 50px 50px 50px ;
+    height: 600px;
+    width: 450px;
+    background-color: white;
+    border-radius: 25px;
+    margin-left: 150px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.b1{
+    margin-left: 130px; 
+    margin-top: 40px; 
+    height: 50px; 
+    width: 200px; 
+    font-size: 17px; 
+    border-radius: 5px; 
+    background-color: white; 
+    border: 2px solid black; 
+    border-radius: 6px;  
+    color: black;
+    font-weight: bold;
+    font-family: LEMON MILK Light;
+}
+
+.b1:hover{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    transition: 0.4s;
+   
+}

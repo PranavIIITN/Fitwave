@@ -1,0 +1,16 @@
+.cover1{
+    width: 30%;
+    background-image: url("WIN_20240229_15_54_49_Pro.jpg");
+    background-size: cover;
+    height: 500px;
+    margin-left: 200px;
+}
+
+.cover2{
+    width: 30%;
+    background-image: url("Aniket.jpg");
+    background-size: cover;
+    height: 500px;
+    margin-left: 100px;
+
+}

@@ -1,0 +1,37 @@
+<?php
+  include ("dbconnect.php");
+
+if(isset($_REQUEST["POST"])){
+$email = $_REQUEST["email"];
+$password = $_REQUEST["password"];
+
+ $q   = "INSERT INTO `userdata` (`email`, `password`) VALUES ( '$email', '$password')";
+ $res
+
+}
+
+
+?>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signin.css">
+</head>
+<body>
+    <div class="signin">
+        <div class="lo"></div><br><br>
+        <div style="text-align: center;"><h1 style="font-family: LEMON MILK Light;">Sign In</h1></div>
+        <form method="POST" action="">
+            <input type="email" placeholder="Enter your email address" name="email" style="height: 50px; width: 100%; text-align: center; font-size: larger; margin-top: 40px; border-radius: 7px;"><br>
+            <input type="password" placeholder="Enter your password" name="pwd" style="height: 50px; width: 100%; text-align: center; font-size: larger; margin-top: 40px; border-radius: 7px;">
+            <input type="submit" value="Sign in" name="submit" class="b1">
+        </form>
+    </div>
+</body>
+</html>
+

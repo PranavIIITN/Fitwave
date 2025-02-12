@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+    
+}
+
+.main{
+    /* background-image: url("bg.gif"); */
+    
+    background-size: cover;
+    height: 736px;
+    
+    
+}
+
+#video{
+  height: 736px;
+  width: 100%;
+  object-fit: cover;
+  
+  
+}
+
+.navbar{
+    height: 36px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    width: 100%;
+    position: fixed;
+    transition: background-color 0.4s ease;
+    z-index: 2;
+}
+
+
+
+
+.nav-logo{
+    height: 80px;
+    width: 150px;
+    margin-left: 40px;
+    background-image: url("webphoto2.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+/* .logo {
+    background-image: url("webphoto2.png");
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat; 
+} */
+
+
+.border{
+    border: 2px solid transparent;
+}
+
+
+
+/** box 2 **/
+
+
+.blogs {
+    width: 100%;
+    overflow-x: auto; /* Optional: Add horizontal scroll if content overflows */
+  }
+  .tabblog {
+    width: 100%;
+    border-collapse: collapse;
+    color: #ffffff;
+  }
+  .tabblog th {
+    height: 200px;
+    background-color: #000000;
+   
+  }
+
+  .calorie{
+    width: 50%;
+    height: 200px;
+    color: #ffffff;
+    background-color: #000000;
+  }
+
+  .description{
+    width: 50%;
+    height: 200px;
+    color: #ffffff;
+    background-color: #000000;
+
+  }
+
+  .img{
+    
+    width: 50%;
+    background-image: url("download.jpeg");
+    background-size: cover;
+    height: 500px;
+    
+   
+  }
+
+  .one{
+    
+    width: 25%;
+    background-image: url("pexels-leon-ardho-2468339.jpg");
+    background-size: cover;
+    
+    
+    
+
+
+  }
+
+  .one:hover{
+    
+    width: 25%;
+    background-image: url("exercise.png");
+    transition: 0.5s;
+    background-size: cover;
+    object-fit: cover;
+    transform: scale(1.25);
+
+   
+  }
+
+ 
+
+
+  .two{
+    
+    width: 25%;
+    margin-left: 50px;
+    background-image: url("pexels-oleksandr-p-2837005.jpg");
+    background-size: cover;
+
+  }
+
+  .two:hover{
+   
+    width: 25%;
+    background-image: url("healthydiet.png");
+    transition: 0.5s;
+    background-size: cover;
+    transform: scale(1.25);
+
+   
+  }
+
+  .three{
+    
+    width: 25%;
+    margin-left: 50px;
+    background-image: url("pexels-pixabay-279947.jpg");
+    background-size: cover;
+
+  }
+
+  .three:hover{
+    
+    width: 25%;
+    background-image: url("water.png");
+    transition: 0.5s;
+    background-size: cover;
+    transform: scale(1.25);
+
+   
+  }
+
+  .four{
+    width: 25%;
+   
+    margin-left: 50px;
+    background-image: url("pexels-george-milton-7034449.jpg");
+    background-size: cover;
+
+  }
+  
+
+  .four:hover{
+    background-color: transparent;
+    opacity: 1;
+    width: 25%;
+    background-image: url("productivity.png");
+    transition: 0.5s;
+    background-size: cover;
+    transform: scale(1.25);
+
+   
+  }
+
+  .btn{
+    margin-left: 510px; 
+    height: 40px; 
+    width: 200px; 
+    font-family: LEMON MILK Light; 
+    border: 2px solid white; 
+    border-radius: 6px;  
+    background-color: black; 
+    color: white;
+    font-weight: bold;
+  }
+
+  .btn:hover{
+   
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: bold;
+    transition: 0.4s;
+   
+
+   
+  }
+
+  .why{
+    /* width: 100%; */
+    height: 600px;
+    background-color: #000000;
+    padding: 100px 50px 100px 50px;
+    display: flex;
+  }
+
+  .whyp{
+    width: 50%;
+    background-image: url("pexels-george-milton-7034449.jpg");
+    background-size: cover;
+  }
+
+  .whyt{
+    text-align: center;
+    width: 50%;
+   
+   
+  }
+
+  .com{
+    background-image: url("black.png");
+    background-size: cover;
+    height: 600px;
+    padding-top: 40px;
+  }
+
+   .com:hover{
+    background-image: url("pexels-therato-1933239.jpg");
+    background-size: cover;
+    transition: 3s;
+   
+  }
+
+  .b2{
+    margin-left: 555px;
+    font-size: 20px;
+    margin-top: 100px;
+    background-color: red;
+    height: 65px;
+    width: 450px;
+    font-family: LEMON MILK Light; 
+    border: 2px solid white; 
+    border-radius: 6px;  
+    background-color: transparent; 
+    color: white;
+    font-weight: bold;
+  }
+
+  .b2:hover{
+   
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: bold;
+    transition: 0.4s;
+   
+
+   
+  }
+
+
+  
+  
+
+
+
+
+
